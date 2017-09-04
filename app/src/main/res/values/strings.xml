@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PizzasApp</string>
+
+    <string-array name="android_layout_arrays">
+        <item>Americana</item>
+        <item>Meet lower</item>
+        <item>Hawaiana</item>
+        <item>Super Suprema</item>
+    </string-array>
+</resources>

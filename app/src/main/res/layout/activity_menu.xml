@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF5E7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:drawableLeft="@drawable/bg_pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="PedidoActivity"
+        android:textSize="30dp"
+        android:text="Ordenar "
+        android:background="#A2D9CE"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp" />
+
+
+</RelativeLayout>
+
